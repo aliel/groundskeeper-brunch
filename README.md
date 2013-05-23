@@ -1,7 +1,8 @@
 groundskeeper-brunch [![Build Status](https://api.travis-ci.org/aliel/groundskeeper-brunch.png)](https://travis-ci.org/aliel/groundskeeper-brunch)
 ====================
 
-Brunch plugin to Clean javascript files, remove console.log ect... using [groundskeeper](https://github.com/Couto/groundskeeper).
+> Brunch plugin to remove console statements, debugger and specific blocks of code using [groundskeeper](https://github.com/Couto/groundskeeper).
+
 
 ## Installation
 
