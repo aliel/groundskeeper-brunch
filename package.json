@@ -1,0 +1,45 @@
+{
+  "name": "groundskeeper-brunch",
+  "version": "0.0.1",
+  "author": {
+    "name": "Ali El broudi",
+    "email": "echo YWxpLmVsYkBnbWFpbC5jb20K | base64 -d",
+    "url": "https://github.com/aliel"
+  },
+	"homepage" : "https://github.com/aliel/groundskeeper-brunch",
+  "description": "Clean javascript files, remove console.log ect... using groundskeeper",
+  "main": "./lib/index.js",
+  "scripts": {
+    "prepublish": "rm -rf lib && coffee --bare --output lib/ src/",
+    "test": "node_modules/.bin/mocha --compilers coffee:coffee-script --require test/common.js",
+  },
+  "dependencies": {
+    "groundskeeper" : "*"
+  },
+  "devDependencies": {
+    "mocha": "1.8.1",
+    "chai": "1.4.2",
+    "coffee-script": "1.4.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/aliel/groundskeeper-brunch"
+  },
+  "keywords": [
+    "clean js",
+    "javascript",
+    "brunch",
+    "groundskeeper",
+    "console",
+    "log",
+    "logs",
+    "debugger",
+    "pragmas",
+    "remover",
+    "removal",
+    "clean",
+    "cleaner"
+  ],
+  "readmeFilename": "README.md",
+  "license": "BSD"
+}
