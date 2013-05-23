@@ -13,7 +13,6 @@ module.exports = class CleanJs
     return
 
   optimize: (data, path, callback) =>
-    console.log @options
     cleaner = groundskeeper @options
     cleaner.write data
     callback null, cleaner.toString()
