@@ -6,7 +6,7 @@
     "email": "echo YWxpLmVsYkBnbWFpbC5jb20K | base64 -d",
     "url": "https://github.com/aliel"
   },
-	"homepage" : "https://github.com/aliel/groundskeeper-brunch",
+  "homepage": "https://github.com/aliel/groundskeeper-brunch",
   "description": "Clean javascript files, remove console.log ect... using groundskeeper",
   "main": "./lib/index.js",
   "scripts": {
@@ -14,7 +14,7 @@
     "test": "node_modules/.bin/mocha --compilers coffee:coffee-script --require test/common.js"
   },
   "dependencies": {
-    "groundskeeper" : ">=0.1.3"
+    "groundskeeper": ">=0.1.10"
   },
   "devDependencies": {
     "mocha": "1.8.1",
