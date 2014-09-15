@@ -11,6 +11,8 @@ Install the plugin via npm with
 npm install --save groundskeeper-brunch
 ```
 
+If you are using [uglify-js-brunch](https://github.com/brunch/uglify-js-brunch) or other JS obfuscation packages make sure that `groundskeeper-brunch` is defined **before** them in your `package.json`.
+
 ## Usage
 
 To specify groundskeeper options, use `config.plugins.groundskeeper` object, for example:
